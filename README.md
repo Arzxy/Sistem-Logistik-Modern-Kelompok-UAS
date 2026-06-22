@@ -98,12 +98,12 @@ Proyek ini terdiri dari **6 repositori terpisah** (1 frontend + 5 backend servic
 ### 1. Clone semua repositori
 
 ```bash
-git clone https://github.com/USERNAME/Frontend_SelebetExpress.git
-git clone https://github.com/USERNAME/LARAVEL_10_SelebretExpress-Pengguna.git
-git clone https://github.com/USERNAME/LARAVEL_10_SelebretExpress-Paket.git
-git clone https://github.com/USERNAME/LARAVEL_10_SelebretExpress-Tarif.git
-git clone https://github.com/USERNAME/LARAVEL_10_SelebretExpress-Armada.git
-git clone https://github.com/USERNAME/LARAVEL_10_SelebretExpress-Pelacakan.git
+git clone https://github.com/Arzxy/Frontend_SelebetExpress.git
+git clone https://github.com/Arzxy/LARAVEL_10_SelebretExpress-Pengguna.git
+git clone https://github.com/Arzxy/LARAVEL_10_SelebretExpress-Paket.git
+git clone https://github.com/Arzxy/LARAVEL_10_SelebretExpress-Tarif.git
+git clone https://github.com/Arzxy/LARAVEL_10_SelebretExpress-Armada.git
+git clone https://github.com/Arzxy/LARAVEL_10_SelebretExpress-Pelacakan.git
 ```
 
 ---
@@ -156,8 +156,8 @@ composer install
 # Install dependensi Node
 npm install
 
-# Salin dan konfigurasi .env
-cp .env.example .env
+# Salin dan konfigurasi .env.test.dev (kalo emang masih percobaan)
+cp .env.test.dev .env
 php artisan key:generate
 ```
 
